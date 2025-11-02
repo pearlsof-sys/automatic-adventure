@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogMeIn Invoice Notification</title>
+    <style>
+        /* Reset and base styles */
+        body, table, td, p, a, li {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+            max-width: 100%;
+        }
+
+        /* Main styles */
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+
+        .header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #eaeaea;
+            padding: 20px;
+        }
+
+        .header img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        h2 {
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            color: #cc3232;
+            margin: 0 0 15px 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 22px;
+            color: #404041;
+            margin: 0 0 20px 0;
+        }
+
+        .steps {
+            background-color: #f8f9fa;
+            border-left: 4px solid #FFE900;
+            padding: 15px 20px;
+            margin: 20px 0;
+        }
+
+        .steps ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        .steps li {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+        
+        .button {
+            display: inline-block;
+            background-color: #FFE900;
+            color: #000000;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+        
+        .invoice-details {
+            background-color: #f0f8ff;
+            border: 1px solid #d0e7ff;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            color: #777777;
+            text-align: center;
+            font-size: 12px;
+            line-height: 20px;
+            padding: 20px;
+            border-top: 1px solid #eaeaea;
+            background: #f9f9f9;
+        }
+
+        @media only screen and (max-width: 480px) {
+            .container {
+                width: 100% !important;
+            }
+            
+            .header img {
+                width: 180px !important;
+            }
+            
+            h2 {
+                font-size: 18px !important;
+            }
+            
+            p {
+                font-size: 14px !important;
+            }
+            
+            .button {
+                display: block;
+                text-align: center;
+            }
+        }
+    </style>
+    </head>
+<body style="margin:0; padding:20px; background-color:#f5f5f5;">
+    <!--[if mso]>
+    <center>
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+    <tr>
+    <td>
+    <![endif]-->
+    
+    <div class="container">
+        <!-- Preheader text -->
+        <div style="display:none; font-size:1px; color:#f5f5f5; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden;">
+        </div>
+        
+        <!-- Header -->
+        <div class="header">
+            <img src="https://cdn.brandfetch.io/idFUl6NSwH/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" alt="GoTo"  alt="" style="padding-bottom:1px; width:75px">
+        </div>
+        
+        <!-- Content -->
+        <div style="padding:30px 25px;">
+            
+            <p>We were unable to process payment for your recent GoTo invoice. To avoid service interruption, please update your payment method.</p>
+            <br>
+            <div class="invoice-details">
+                <p><strong>Invoice #:</strong> INV-LMI-01[-randomnumber-]</p>
+            </div>
+            <br>
+            <p><strong>To update your payment information:</strong></p>
+            <br>
+                            <div class="steps">
+                              <ol>
+                                <li class="dark-mode-text">Log in to the cloud portal at <strong>accounts.logme.in</strong></li>
+                                <li class="dark-mode-text">Navigate to the <strong>Settings</strong> page</li>
+                                <li class="dark-mode-text">Locate the <strong>Billing</strong> section</li>
+                                <li class="dark-mode-text">Click <strong>Edit</strong> to update your credit card or billing details</li>
+                                <li class="dark-mode-text">Click <strong>Save</strong> to confirm your changes</li>
+                              </ol>
+                            </div>
+            
+            <p>Your invoice will process automatically once payment information is updated.</p>
+            
+            <div style="text-align:center; margin:25px 0;">
+                <a href="[button_link]" class="button">Cloud Portal</a>
+            </div>
+            
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            You received this email regarding your GoTo account.<br><br>
+            ©2025 GoTo. All Rights Reserved<br>
+            333 Summer Street, 5th Floor | Boston, MA 02210
+        </div>
+    </div>
+    
+    <!--[if mso]>
+    </td>
+    </tr>
+    </table>
+    </center>
+    <![endif]-->
+</body>
+</html>
